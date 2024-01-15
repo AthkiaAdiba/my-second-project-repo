@@ -9,18 +9,19 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-body {
+/* body {
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
 
-}
+} */
 
 /* nav styles */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 40px 140px 10px 140px;
 }
 
 ul {
@@ -67,14 +68,66 @@ li a {
 .banner {
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    /* width: 100%; */
-    /* width: 90%; */
-    height: 600px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* width: 1440px; */
+    background-position: center;
+    height: 700px;
     border-radius: 16px;
-    /* width: 1440px; */
+}
+
+.banner-writing {
+    text-align: center;
+    padding: 106px 285px 0 185px;
+}
+
+.banner-tittle {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+
+}
+
+.banner-description {
+    color: #FFF;
+
+}
+
+.btn-container {
     display: flex;
     justify-content: center;
+    gap: 25px;
+    margin-top: 70px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+.btn {
+    /* border: 1px solid white; */
+    border-radius: 8px;
+    background: #FFF;
+    width: 150px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.btn-special {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 150px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-special-p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    
 }
