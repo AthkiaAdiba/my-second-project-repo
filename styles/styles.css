@@ -307,7 +307,7 @@ li a {
 
 /* why choose us section */
 .why-choose-us {
-    margin: -150px 140px 200px 140px;
+    margin: 130px 140px 200px 140px;
 
 }
 
@@ -530,6 +530,21 @@ li a {
     margin-bottom: 16px;
 }
 
+.xy {
+    position: relative;
+}
+
+.xy-tittle {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    bottom: 170px;
+    left: 170px;
+
+}
+
 /* form section */
 .form-section {
     /* margin: 0 100px 130px 130px; */
@@ -587,14 +602,17 @@ li a {
     font-size: 20px;
     font-weight: 800;
 }
-.form-image{
+
+.form-image {
     position: relative;
 }
-.image-btn{
+
+.image-btn {
     position: absolute;
     bottom: 50px;
     left: 340px;
 }
+
 form {
     margin-top: 30px;
 }
@@ -605,7 +623,7 @@ form {
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
-    
+
 
 }
 
@@ -615,7 +633,7 @@ form {
     font-size: 24px;
     font-weight: 400;
     transform: rotate(-1deg);
-    
+
 }
 
 .image-btn-second-sentence {
@@ -624,6 +642,36 @@ form {
     font-weight: 800;
     text-align: center;
     transform: rotate(-1deg);
+}
+
+/* added my section */
+.offer-section {
+    margin-top: -130px;
+}
+
+.offer-image {
+    width: 100%;
+    height: 700px;
+    /* margin-left: 130px;
+    border-radius: 16px; */
+}
+
+.offer-description {
+    position: relative;
+}
+
+.offer-box {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    width: 579px;
+    height: 389px;
+    position: absolute;
+    bottom: 110px;
+    left: 150px;
+    padding: 40px;
+
+
 }
 
 /* footer section */
@@ -682,4 +730,145 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+
+/* resposive for small devices */
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    footer {
+        height: 100px;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .popular {
+
+        grid-template-columns: 1fr;
+        margin-left: 30px;
+        padding: 0px;
+    }
+
+    .column-container {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .first-column,
+    .second-column,
+    .third-column {
+        grid-template-columns: 1fr;
+        margin: 0px;
+        padding: 0px;
+        /* height: auto; */
+
+    }
+
+    /* .first-column{
+        height: auto;
+    }
+    .second-column{
+        height: auto;
+    }
+    .third-column{
+        height: auto;
+    } */
+    .why-choose-first-column {
+        grid-template-columns: 1fr;
+        /* height: auto; */
+        margin-bottom: 1000px;
+    }
+    .why-choose-us{
+        margin: 150px 0px;
+    }
+    .first-box{
+        padding: 10px;
+        width: 580px;
+    }
+
+    .why-choose-second-column {
+        flex-direction: column;
+        /* height: auto; */
+    }
+
+    .discount-first-image {
+        width: 590px;
+        height: 500px;
+        position: relative;
+    }
+
+    .white-background {
+        width: 400px;
+        height: 350px;
+        position: relative;
+        left: 100px;
+        top: 130px;
+
+    }
+
+    .white-background-description {
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    .discount-second-image {
+        height: 500px;
+        width: 590px;
+        position: relative;
+    }
+
+    .white-background-second {
+        width: 400px;
+        height: 350px;
+        position: absolute;
+        position: relative;
+        left: 100px;
+        top: 130px;
+
+        /* top: 56px; */
+    }
+
+    .discount-section {
+        margin: 0px;
+    }
+
+    .discount-description {
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+
+    .video-section {
+        margin: 10px;
+        width: 580px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .form-section {
+        margin: 0px;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .newsletter {
+        width: 590px;
+        /* height: 422px; */
+    }
+
+    .form-image {
+        width: 50%;
+    }
+
+    .image-btn {
+        width: 250px;
+        height: 120px;
+    }
+
+
+
 }
