@@ -587,6 +587,99 @@ li a {
     font-size: 20px;
     font-weight: 800;
 }
-form{
+.form-image{
+    position: relative;
+}
+.image-btn{
+    position: absolute;
+    bottom: 50px;
+    left: 340px;
+}
+form {
+    margin-top: 30px;
+}
+
+.image-btn {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    
+
+}
+
+.image-btn-first-sentence {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    transform: rotate(-1deg);
+    
+}
+
+.image-btn-second-sentence {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    transform: rotate(-1deg);
+}
+
+/* footer section */
+footer {
+    /* width: 1440px; */
+    height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+.footer-happy {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-vacations {
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-top: 30px;
+}
+
+.social-icon {
+    font-size: 24px;
+}
+
+.horizontal-line {
+    background: rgba(19, 19, 24, 0.10);
+    width: 872px;
+    height: 1px;
+    margin-top: 40px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
 }
