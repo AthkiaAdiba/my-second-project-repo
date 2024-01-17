@@ -23,6 +23,9 @@ nav {
     align-items: center;
     margin: 40px 140px 10px 140px;
 }
+#bar-icon{
+    display: none;
+}
 
 ul {
     display: flex;
@@ -95,7 +98,9 @@ li a {
     justify-content: center;
     gap: 25px;
     margin-top: 70px;
-    padding: 10px 30px;
+    padding: 10px 20px;
+    margin-left: 120px;
+    width: 800px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
 
@@ -740,6 +745,8 @@ footer {
         padding: 0px;
     }
 
+    
+
     footer {
         height: 100px;
         width: 100%;
@@ -768,24 +775,18 @@ footer {
 
     }
 
-    /* .first-column{
-        height: auto;
-    }
-    .second-column{
-        height: auto;
-    }
-    .third-column{
-        height: auto;
-    } */
+
     .why-choose-first-column {
         grid-template-columns: 1fr;
         /* height: auto; */
         margin-bottom: 1000px;
     }
-    .why-choose-us{
+
+    .why-choose-us {
         margin: 150px 0px;
     }
-    .first-box{
+
+    .first-box {
         padding: 10px;
         width: 580px;
     }
@@ -868,7 +869,91 @@ footer {
         width: 250px;
         height: 120px;
     }
+    .btn-container {
+        flex-direction: column;
+        gap: 10px;
+        /* margin-top: 210px;
+        margin-left: 180px; */
+        padding: 10px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        width: 170px;
+        position: absolute;
+        top: 400px;
+        right: 200px;
+        
 
+    }
+
+    .banner-tittle {
+        font-size: 25px;
+        font-weight: 600;
+        position: absolute;
+        top: 300px;
+        right: 180px;
+        
+    }
+    .banner-description{
+        position: absolute;
+        font-size: 16px;
+        font-weight: 400;
+        top: 375px;
+        right: 30px;
+
+        
+    }
+    .banner {
+        background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1000px;
+        border-radius: 16px;
+        width: 580px;
+        position: relative;
+        margin-bottom: -190px;
+        margin-top: -150px;
+        margin-left: 8px;
+        border-radius: 16px;
+    }
+    
+    .banner-writing {
+        text-align: center;
+        
+    }
+    .nav-tittle {
+        color: #131318;
+        font-size: 30px;
+        font-weight: 600;
+    
+    }
+    
+    .yellow {
+        color: #FF5400;
+        font-size: 30px;
+        font-weight: 600;
+    
+    }
+    #ul{
+        display: none;
+    }
+    nav{
+        position: relative;
+    }
+    .nav-name{
+        position: absolute;
+        /* right: 50px; */
+        margin-left: -120px;
+        padding: 0;
+    }
+    #bar-icon{
+        position: absolute;
+        font-size: 30px;
+        color: #131318;
+        left: 400px;
+        top: 6px;
+    }
+    
+    
 
 
 }
